@@ -1,0 +1,30 @@
+
+include:
+  - "_*_.js"
+  - "_*_.ts"
+  - "_*_.tsx"
+
+plugins: []
+
+# Ensure proper MIME types for JavaScript modules
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+
+# Keep Jekyll from processing certain files
+keep_files:
+  - "assets"
+  - "dist"
+  - "_astro"
+
+# Exclude unnecessary files
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - .gitignore
+  - vite.config.ts
+  - tsconfig.json
