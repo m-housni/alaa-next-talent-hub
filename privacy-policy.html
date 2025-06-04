@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlaaNEXT - Privacy Policy</title>
+    <meta name="description" content="AlaaNEXT Privacy Policy. Learn how we collect, use, and protect your information.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-purple': '#8B5CF6',
+                        'brand-blue': '#3B82F6',
+                        'brand-indigo': '#6366F1',
+                        'brand-cyan': '#06B6D4'
+                    },
+                    backgroundImage: {
+                        'gradient-brand': 'linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #06B6D4 100%)',
+                        'gradient-hero': 'linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 50%, rgba(6, 182, 212, 0.1) 100%)'
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.6s ease-out',
+                        'scale-in': 'scaleIn 0.4s ease-out'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes scaleIn {
+            0% { transform: scale(0.95); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        .bg-gradient-brand {
+            background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #06B6D4 100%);
+        }
+        .bg-gradient-hero {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 50%, rgba(6, 182, 212, 0.1) 100%);
+        }
+        .text-gradient-brand {
+            background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #06B6D4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+        .animate-scale-in {
+            animation: scaleIn 0.4s ease-out;
+        }
+        .mobile-menu {
+            display: none;
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="index.html">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-gradient-brand rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">A</span>
+                        </div>
+                        <span class="text-xl font-bold text-gray-900">AlaaNEXT</span>
+                    </div>
+                </a>
+                
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="index.html#features" class="text-gray-600 hover:text-brand-purple transition-colors">Why Us?</a>
+                    <a href="index.html#how-it-works" class="text-gray-600 hover:text-brand-purple transition-colors">How It Works</a>
+                    <a href="index.html#testimonials" class="text-gray-600 hover:text-brand-purple transition-colors">Success Stories</a>
+                </nav>
+                
+                <div class="flex items-center space-x-4">
+                    <button class="hidden sm:inline-flex px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors">
+                        Sign In
+                    </button>
+                    <button class="px-4 py-2 bg-brand-purple text-white rounded-md text-sm font-medium hover:bg-purple-700 transition-colors">
+                        Get Started
+                    </button>
+                    <button class="md:hidden" onclick="toggleMobileMenu()">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <div id="mobile-menu" class="mobile-menu md:hidden mt-4 pb-4">
+                <nav class="flex flex-col space-y-4">
+                    <a href="index.html#features" class="text-gray-600 hover:text-brand-purple transition-colors">Why Us?</a>
+                    <a href="index.html#how-it-works" class="text-gray-600 hover:text-brand-purple transition-colors">How It Works</a>
+                    <a href="index.html#testimonials" class="text-gray-600 hover:text-brand-purple transition-colors">Success Stories</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-24 mt-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
+
+        <div class="prose max-w-none text-gray-700">
+            <h4>1. Introduction</h4>
+            <p>Welcome to AlaaNEXT ("we," "our," or "us"). We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://www.alaanext.com" class="text-brand-purple hover:underline">www.alaanext.com</a> (the “Service”). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the Service.</p>
+
+            <h4>2. Information We Collect</h4>
+            <p>We may collect personal information from you in a variety of ways, including, but not limited to, when you visit our Service, register on the Service, place an order, subscribe to a newsletter, respond to a survey, fill out a form, and in connection with other activities, services, features or resources we make available on our Service. You may be asked for, as appropriate, name, email address, mailing address, phone number, credit card information. We will collect personal identification information from you only if you voluntarily submit such information to us. You can always refuse to supply personally identification information, though it may prevent you from engaging in certain Service-related activities.</p>
+            <p>We may also collect non-personal identification information about you whenever you interact with our Service. Non-personal identification information may include the browser name, the type of computer and technical information about your means of connection to our Service, such as the operating system and the Internet service providers utilized and other similar information.</p>
+
+            <h4>3. How We Use Your Information</h4>
+            <p>We may use the information we collect from you for various purposes, including:</p>
+            <ul>
+                <li><strong>To provide and maintain our Service:</strong> This includes processing transactions and managing your account.</li>
+                <li><strong>To improve our Service:</strong> We use feedback you provide to improve our products and services.</li>
+                <li><strong>To personalize user experience:</strong> We may use information in the aggregate to understand how our users as a group use the services and resources provided on our Service.</li>
+                <li><strong>To process payments:</strong> We may use the information users provide about themselves when placing an order only to provide service to that order. We do not share this information with outside parties except to the extent necessary to provide the service.</li>
+                <li><strong>To send periodic emails:</strong> We may use the email address to send you information and updates pertaining to your order. It may also be used to respond to your inquiries, questions, and/or other requests. If you decide to opt-in to our mailing list, you will receive emails that may include company news, updates, related product or service information, etc. If at any time you would like to unsubscribe from receiving future emails, we include detailed unsubscribe instructions at the bottom of each email.</li>
+                <li>**To run a promotion, contest, survey or other Service feature.**</li>
+                <li>**To administer a sweepstakes, contest, or other promotion.**</li>
+            </ul>
+
+            <h4>4. How We Protect Your Information</h4>
+            <p>We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our Service.</p>
+            <p>Sensitive and private data exchange between the Service and its Users happens over a SSL secured communication channel and is encrypted and protected with digital signatures.</p>
+
+            <h4>5. Sharing Your Personal Information</h4>
+            <p>We do not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners, trusted affiliates and advertisers for the purposes outlined above. We may use third party service providers to help us operate our business and the Service or administer activities on our behalf, such as sending out newsletters or surveys. We may share your information with these third parties for those limited purposes provided that you have given us your permission.</p>
+
+            <h4>6. Third-Party Websites</h4>
+            <p>You may find advertising or other content on our Service that link to the sites and services of our partners, suppliers, advertisers, sponsors, licensors and other third parties. We do not control the content or links that appear on these sites and are not responsible for the practices employed by websites linked to or from our Service. In addition, these sites or services, including their content and links, may be constantly changing. These sites and services may have their own privacy policies and customer service policies. Browse and interaction on any other website, including websites which have a link to our Service, is subject to that website's own terms and policies.</p>
+
+            <h4>7. Cookies</h4>
+            <p>Our Service may use "cookies" to enhance user experience. Your web browser places cookies on your hard drive for record-keeping purposes and sometimes to track information about them. You may choose to set your web browser to refuse cookies, or to alert you when cookies are being sent. If you do so, note that some parts of the Service may not function properly.</p>
+
+            <h4>8. Your Rights</h4>
+            <p>Depending on your location, you may have certain rights regarding your personal information, including:</p>
+            <ul>
+                <li>The right to access the personal information we hold about you.</li>
+                <li>The right to request correction of inaccurate personal information.</li>
+                <li>The right to request deletion of your personal information.</li>
+                <li>The right to object to or restrict processing of your personal information.</li>
+                <li>The right to data portability.</li>
+            </ul>
+            <p>To exercise any of these rights, please contact us at <a href="mailto:contact@alaanext.com" class="text-brand-purple hover:underline">contact@alaanext.com</a>.</p>
+
+            <h4>9. Changes to This Privacy Policy</h4>
+            <p>AlaaNEXT has the discretion to update this Privacy Policy at any time. When we do, we will revise the updated date at the bottom of this page. We encourage you to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect. You acknowledge and agree that it is your responsibility to review this Privacy Policy periodically and become aware of modifications.</p>
+
+            <h4>10. Your Acceptance of These Terms</h4>
+            <p>By using this Service, you signify your acceptance of this policy. If you do not agree to this policy, please do not use our Service. Your continued use of the Service following the posting of changes to this policy will be deemed your acceptance of those changes.</p>
+
+            <h4>11. Contacting Us</h4>
+            <p>If you have any questions about this Privacy Policy, the practices of this Service, or your dealings with this Service, please contact us at:</p>
+            <p><strong>AlaaNEXT</strong><br>
+            <a href="mailto:contact@alaanext.com" class="text-brand-purple hover:underline">contact@alaanext.com</a><br>
+            Registred Agents lnc<br>
+            30 N Gould st ste R<br>
+            Sheridan. WY 82801<br>
+            251-384-4419</p>
+
+            <p class="text-sm text-gray-500 mt-8"><em>This document was last updated on June 4, 2025.</em></p>
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <div class="w-8 h-8 bg-gradient-brand rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">A</span>
+                        </div>
+                        <span class="text-xl font-bold">AlaaNEXT</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Connecting the world's best IT talent with innovative companies through smart matching and comprehensive support.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">For Talent</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white transition-colors">Apply Today</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Prep Resources</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Success Stories</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Refer a Friend</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">For Companies</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white transition-colors">Hire Talent</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Our Process</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Client Testimonials</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Enterprise Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-8 text-center text-gray-500 text-sm">
+                &copy; 2025 AlaaNEXT. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
